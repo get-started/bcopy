@@ -4,18 +4,18 @@ copy properties from a object into another object
 ## DSL
 - simple case
 ```java
-CopySpec.from(foo).into(bar);
+CopySpec.copy(foo).into(bar);
 ```
 
 - includes(Predicate)
 
 ```java
-CopySpec.from(foo).includes(...).into(bar);
+CopySpec.copy(foo).includes(...).into(bar);
 ```
 
 - excludes(Predicate)
 ```java
-CopySpec.from(foo).excludes(...).into(bar);
+CopySpec.copy(foo).excludes(...).into(bar);
 ```
 
 
